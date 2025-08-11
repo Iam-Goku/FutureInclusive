@@ -3,40 +3,88 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Future Centre</title>
+  <title>Future Centre - Where Every Child Shines!</title>
   <link rel="stylesheet" href="Components/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <div class="page-wrapper">
+    <!-- Floating decorations -->
+    <div class="bubble" style="width: 80px; height: 80px; top: 20%; left: 5%;"></div>
+    <div class="bubble" style="width: 60px; height: 60px; top: 70%; left: 10%;"></div>
+    <div class="bubble" style="width: 100px; height: 100px; top: 40%; right: 8%;"></div>
+    
     <header>
       <nav>
-        <h1>Future Centre</h1>
+        <h1><i class="fas fa-star"></i> Future Centre</h1>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="parents.html">For Parents</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+          <li><a href="services.html"><i class="fas fa-hands-helping"></i> Services</a></li>
+          <li><a href="parents.html"><i class="fas fa-users"></i> For Parents</a></li>
+          <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section class="hero">
-        <h2>Where Every Child Is Understood</h2>
-        <p>Empowering neurodivergent children and their families through empathy, expertise, and inclusive care.</p>
-        <a href="services.html" class="btn">Explore Services</a>
+        <h2>Where Every Child Is Understood <i class="fas fa-heart"></i></h2>
+        <p>Empowering neurodivergent children and their families through empathy, expertise, and joyful learning!</p>
+        <div class="hero-buttons">
+          <a href="services.html" class="btn btn-rainbow"><i class="fas fa-search"></i> Explore Services</a>
+          <a href="contact.html" class="btn"><i class="fas fa-phone"></i> Call Us Today</a>
+        </div>
+        <div class="hero-image">
+          <img src="img/kidsplay-2.jpg" alt="Happy children playing" class="mobile-hidden">
+        </div>
       </section>
 
       <section class="intro">
-        <h3>Not Just a Clinic — A Movement of Understanding</h3>
-        <p>We believe healing is relational, not transactional. Our center is a safe space where therapy is joyful, personalized, and family-centered.</p>
+        <h3><i class="fas fa-rocket"></i> Not Just a Clinic — A Movement of Understanding</h3>
+        <p>We believe healing is relational, not transactional. Our center is a safe space where therapy is fun, personalized, and family-centered.</p>
+        
+        <div class="features">
+          <div class="feature-card">
+            <i class="fas fa-smile feature-icon"></i>
+            <h4>Play-Based Learning</h4>
+            <p>We make therapy fun with games and activities kids love!</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-hands feature-icon"></i>
+            <h4>Family Support</h4>
+            <p>We work with the whole family to create success.</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-graduation-cap feature-icon"></i>
+            <h4>Expert Team</h4>
+            <p>Specialists who understand neurodiversity.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="cta">
+        <h3>Ready to Start Your Journey?</h3>
+        <p>Contact us today to schedule a free consultation!</p>
+        <a href="contact.html" class="btn btn-rainbow"><i class="fas fa-calendar-alt"></i> Book Now</a>
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2025 Future Centre</p>
+      <div class="footer-content">
+        <p>&copy; 2025 Future Centre | <i class="fas fa-map-marker-alt"></i> 123 Playful Lane, Kidstown</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
     </footer>
+    
+    <!-- Fun floating button -->
+    <div class="fun-corner">
+      <i class="fas fa-gamepad"></i>
+    </div>
   </div>
 </body>
 </html>

@@ -5,84 +5,168 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>What We Offer | Future Centre</title>
   <link rel="stylesheet" href="Components/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+  <!-- Floating decorations -->
+  <div class="bubble" style="width: 80px; height: 80px; top: 10%; left: 5%; background-color: rgba(255,200,200,0.4);"></div>
+  <div class="bubble" style="width: 60px; height: 60px; top: 70%; left: 10%; background-color: rgba(200,255,200,0.4);"></div>
+  <div class="bubble" style="width: 100px; height: 100px; top: 40%; right: 8%; background-color: rgba(200,200,255,0.4);"></div>
+  
   <header>
     <nav>
-      <h1>Future Centre</h1>
+      <h1><i class="fas fa-star"></i> Future Centre</h1>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="parents.html">For Parents</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+        <li><a href="services.html"><i class="fas fa-hands-helping"></i> Services</a></li>
+        <li><a href="parents.html"><i class="fas fa-users"></i> For Parents</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>What We Offer</h2>
-    <p>Our services are designed to support the whole child — emotionally, socially, and developmentally — while empowering families every step of the way.</p>
-  </section>
+  <main>
+    <section class="hero hero-services">
+      <h2><i class="fas fa-magic"></i> What We Offer</h2>
+      <p class="hero-subtitle">Our services are designed to help every child shine — emotionally, socially, and developmentally — while supporting families every step of the way!</p>
+      <div class="hero-decoration">
+        <div class="star"><i class="fas fa-star"></i></div>
+        <div class="heart"><i class="fas fa-heart"></i></div>
+        <div class="smile"><i class="fas fa-smile"></i></div>
+      </div>
+    </section>
 
-  <section class="services">
-    <h3>🧠 Developmental & Emotional Support</h3>
-    <div class="service-grid">
-      <div class="service-card">
-        <h4>Speech Therapy & AAC</h4>
-        <p>Helping children express themselves through verbal and alternative communication methods.</p>
+    <section class="services">
+      <div class="service-category">
+        <div class="category-header">
+          <h3><i class="fas fa-brain"></i> Developmental & Emotional Support</h3>
+          <div class="category-icon"><i class="fas fa-child"></i></div>
+        </div>
+        <div class="service-grid">
+          <div class="service-card">
+            <div class="service-icon" style="background-color: #FFD54F;">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h4>Speech Therapy & AAC</h4>
+            <p>Helping children find their voice through fun verbal and alternative communication methods.</p>
+            <div class="service-tag">Ages 2-12</div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon" style="background-color: #81C784;">
+              <i class="fas fa-hands"></i>
+            </div>
+            <h4>Occupational Therapy</h4>
+            <p>Improving sensory integration and motor skills through playful, engaging activities.</p>
+            <div class="service-tag">All Ages</div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon" style="background-color: #64B5F6;">
+              <i class="fas fa-music"></i>
+            </div>
+            <h4>Art, Play & Music Therapy</h4>
+            <p>Creative ways to express feelings and build confidence through art and music.</p>
+            <div class="service-tag">Ages 3-16</div>
+          </div>
+        </div>
       </div>
-      <div class="service-card">
-        <h4>Occupational Therapy</h4>
-        <p>Improving sensory integration, motor skills, and daily functioning through play-based techniques.</p>
-      </div>
-      <div class="service-card">
-        <h4>Art, Play & Music Therapy</h4>
-        <p>Creative modalities that help children process emotions and build confidence.</p>
-      </div>
-    </div>
 
-    <h3>🤝 Social & Behavioral Growth</h3>
-    <div class="service-grid">
-      <div class="service-card">
-        <h4>Social-Emotional Learning</h4>
-        <p>Building emotional awareness, empathy, and friendship skills in safe group settings.</p>
+      <div class="service-category">
+        <div class="category-header">
+          <h3><i class="fas fa-users"></i> Social & Behavioral Growth</h3>
+          <div class="category-icon"><i class="fas fa-friends"></i></div>
+        </div>
+        <div class="service-grid">
+          <div class="service-card">
+            <div class="service-icon" style="background-color: #BA68C8;">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h4>Social-Emotional Learning</h4>
+            <p>Building emotional awareness and friendship skills in fun group activities.</p>
+            <div class="service-tag">Ages 4-14</div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon" style="background-color: #4DB6AC;">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h4>Focus & Regulation Coaching</h4>
+            <p>Game-based strategies to improve attention and self-control.</p>
+            <div class="service-tag">Ages 5-12</div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon" style="background-color: #FF8A65;">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <h4>Behavioral Support</h4>
+            <p>Understanding behaviors and guiding positive change with kindness.</p>
+            <div class="service-tag">All Ages</div>
+          </div>
+        </div>
       </div>
-      <div class="service-card">
-        <h4>Focus & Regulation Coaching</h4>
-        <p>Strategies to improve attention, impulse control, and classroom readiness.</p>
-      </div>
-      <div class="service-card">
-        <h4>Behavioral Support</h4>
-        <p>Understanding root causes of challenging behaviors and guiding positive change.</p>
-      </div>
-    </div>
 
-    <h3>👨‍👩‍👧 Family-Centered Programs</h3>
-    <div class="service-grid">
-      <div class="service-card">
-        <h4>Parent-Child Therapy</h4>
-        <p>Strengthening relationships through guided interaction and emotional coaching.</p>
+      <div class="service-category">
+        <div class="category-header">
+          <h3><i class="fas fa-home"></i> Family-Centered Programs</h3>
+          <div class="category-icon"><i class="fas fa-family"></i></div>
+        </div>
+        <div class="service-grid">
+          <div class="service-card">
+            <div class="service-icon" style="background-color: #7986CB;">
+              <i class="fas fa-hands-holding-child"></i>
+            </div>
+            <h4>Parent-Child Therapy</h4>
+            <p>Strengthening relationships through guided play and connection.</p>
+            <div class="service-tag">All Ages</div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon" style="background-color: #4DD0E1;">
+              <i class="fas fa-baby"></i>
+            </div>
+            <h4>Early Intervention</h4>
+            <p>Special support for toddlers to help them thrive from the start.</p>
+            <div class="service-tag">Ages 1-5</div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon" style="background-color: #A1887F;">
+              <i class="fas fa-school"></i>
+            </div>
+            <h4>After-School Enrichment</h4>
+            <p>Fun activities that build life skills and confidence after school.</p>
+            <div class="service-tag">Ages 6-14</div>
+          </div>
+        </div>
       </div>
-      <div class="service-card">
-        <h4>Early Intervention</h4>
-        <p>Support for toddlers and preschoolers to address developmental delays early.</p>
-      </div>
-      <div class="service-card">
-        <h4>After-School Enrichment</h4>
-        <p>Life skills, creativity, and confidence-building activities in a nurturing environment.</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="cta">
-    <h3>Ready to Begin?</h3>
-    <p>Whether you're seeking answers, support, or a safe space to grow — we're here for you.</p>
-    <a href="contact.html" class="btn">Get in Touch</a>
-  </section>
+    <section class="cta cta-services">
+      <h3>Ready to Begin Your Journey?</h3>
+      <p>Whether you're seeking answers, support, or a safe space to grow — we're here for you!</p>
+      <div class="cta-buttons">
+        <a href="contact.html" class="btn btn-rainbow"><i class="fas fa-calendar-alt"></i> Book a Session</a>
+        <a href="tel:+1234567890" class="btn"><i class="fas fa-phone"></i> Call Us Now</a>
+      </div>
+      <div class="cta-decoration">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-smile"></i>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Future Centre</p>
+    <div class="footer-content">
+      <p>&copy; 2025 Future Centre | <i class="fas fa-map-marker-alt"></i> 123 Playful Lane, Kidstown</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
   </footer>
+  
+  <!-- Fun floating button -->
+  <div class="fun-corner">
+    <i class="fas fa-gamepad"></i>
+  </div>
 </body>
 </html>
