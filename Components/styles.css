@@ -1,6 +1,6 @@
 /* ===== Global Variables ===== */
 :root {
-  --maroon: #701e1e;
+  --maroon: #b33838ec;
   --gold: #d4af37;
   --light-gold: #fff8e1;
   --bg-light: #fdf6e3;
@@ -99,7 +99,7 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.about h3 {
+.about h3,h2 {
   font-size: 1.6rem;
   color: var(--maroon);
   margin-bottom: 1rem;
