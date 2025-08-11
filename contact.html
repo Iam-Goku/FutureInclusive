@@ -6,139 +6,160 @@
   <title>Contact Us | Future Centre</title>
   <link rel="stylesheet" href="Components/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Floating decorations -->
-  <div class="bubble" style="width: 80px; height: 80px; top: 15%; left: 5%; background-color: rgba(255,200,200,0.4);"></div>
-  <div class="bubble" style="width: 60px; height: 60px; top: 70%; left: 10%; background-color: rgba(200,255,200,0.4);"></div>
-  <div class="bubble" style="width: 100px; height: 100px; top: 40%; right: 8%; background-color: rgba(200,200,255,0.4);"></div>
-  
-  <header>
-    <nav>
-      <h1><i class="fas fa-star"></i> Future Centre</h1>
-      <ul>
-        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-        <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
-        <li><a href="services.html"><i class="fas fa-hands-helping"></i> Services</a></li>
-        <li><a href="parents.html"><i class="fas fa-users"></i> For Parents</a></li>
-        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="page-wrapper">
+    <!-- Floating decorations -->
+    <div class="gradient-circle circle-1"></div>
+    <div class="gradient-circle circle-2"></div>
+    <div class="gradient-circle circle-3"></div>
+    <div class="holographic-element holo-1"></div>
+    <div class="holographic-element holo-2"></div>
 
-  <main>
-    <section class="contact-hero">
-      <h2><i class="fas fa-paper-plane"></i> Let's Connect!</h2>
-      <p class="hero-subtitle">We're here to answer your questions and help your family begin its journey with us.</p>
-      <div class="contact-decoration">
-        <i class="fas fa-comments"></i>
-        <i class="fas fa-phone"></i>
-        <i class="fas fa-map-marker-alt"></i>
-      </div>
-    </section>
-
-    <section class="contact-content">
-      <div class="contact-methods">
-        <div class="contact-card">
-          <div class="contact-icon">
-            <i class="fas fa-phone-alt"></i>
-          </div>
-          <h3>Call Us</h3>
-          <p>Speak directly with our friendly team</p>
-          <a href="tel:+1234567890" class="contact-link">(123) 456-7890</a>
-          <p class="contact-hours">Mon-Fri: 9am-5pm</p>
+    <!-- Header -->
+    <header class="glass-header">
+      <nav>
+        <div class="logo-container">
+          <i class="fas fa-atom logo-icon"></i>
+          <h1>Future Centre</h1>
         </div>
+        <ul class="nav-links">
+          <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+          <li><a href="services.html"><i class="fas fa-hands-helping"></i> Services</a></li>
+          <li><a href="parents.html"><i class="fas fa-users"></i> For Parents</a></li>
+          <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <a href="contact.html" class="nav-cta">Get Started <i class="fas fa-arrow-right"></i></a>
+      </nav>
+    </header>
 
-        <div class="contact-card">
-          <div class="contact-icon">
-            <i class="fas fa-envelope"></i>
-          </div>
-          <h3>Email Us</h3>
-          <p>Send us your questions anytime</p>
-          <a href="mailto:hello@futurecentre.com" class="contact-link">hello@futurecentre.com</a>
-          <p class="contact-response">We reply within 24 hours</p>
-        </div>
-
-        <div class="contact-card">
-          <div class="contact-icon">
+    <!-- Main Content -->
+    <main>
+      <section class="hero-section">
+        <div class="hero-content">
+          <h2 class="hero-title"><i class="fas fa-paper-plane"></i> Let's Connect!</h2>
+          <p class="hero-subtitle">We're here to answer your questions and help your family begin its journey with us.</p>
+          <div class="contact-decoration">
+            <i class="fas fa-comments"></i>
+            <i class="fas fa-phone"></i>
             <i class="fas fa-map-marker-alt"></i>
           </div>
-          <h3>Visit Us</h3>
-          <p>Come see our welcoming space</p>
-          <address class="contact-address">
-            123 Playful Lane<br>
-            Kidstown, ST 12345
-          </address>
-          <a href="#" class="btn-small"><i class="fas fa-directions"></i> Get Directions</a>
+        </div>
+      </section>
+
+      <section class="features-section">
+        <div class="contact-methods">
+          <div class="feature-card card-1">
+            <div class="feature-icon-container"><i class="fas fa-phone-alt"></i></div>
+            <h3>Call Us</h3>
+            <p>Speak directly with our friendly team</p>
+            <a href="tel:+1234567890" class="contact-link">(123) 456-7890</a>
+            <p class="contact-hours">Mon–Fri: 9am–5pm</p>
+          </div>
+
+          <div class="feature-card card-2">
+            <div class="feature-icon-container"><i class="fas fa-envelope"></i></div>
+            <h3>Email Us</h3>
+            <p>Send us your questions anytime</p>
+            <a href="mailto:hello@futurecentre.com" class="contact-link">hello@futurecentre.com</a>
+            <p class="contact-response">We reply within 24 hours</p>
+          </div>
+
+          <div class="feature-card card-3">
+            <div class="feature-icon-container"><i class="fas fa-map-marker-alt"></i></div>
+            <h3>Visit Us</h3>
+            <p>Come see our welcoming space</p>
+            <address class="contact-address">
+              123 Playful Lane<br>
+              Kidstown, ST 12345
+            </address>
+            <a href="#" class="btn-small"><i class="fas fa-directions"></i> Get Directions</a>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <h3><i class="fas fa-comment-dots"></i> Send Us a Message</h3>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name"><i class="fas fa-user"></i> Your Name</label>
+              <input type="text" id="name" name="name" placeholder="First and Last Name" required aria-label="Your Name">
+            </div>
+
+            <div class="form-group">
+              <label for="email"><i class="fas fa-envelope"></i> Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required aria-label="Email">
+            </div>
+
+            <div class="form-group">
+              <label for="phone"><i class="fas fa-phone"></i> Phone (optional)</label>
+              <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890" aria-label="Phone">
+            </div>
+
+            <div class="form-group">
+              <label for="childAge"><i class="fas fa-child"></i> Child's Age (if applicable)</label>
+              <input type="text" id="childAge" name="childAge" placeholder="e.g. 5 years" aria-label="Child's Age">
+            </div>
+
+            <div class="form-group">
+              <label for="message"><i class="fas fa-comment"></i> Your Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="How can we help your family?" required aria-label="Message"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-rainbow">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+          <p id="formResponse" class="form-response"></p>
+        </div>
+      </section>
+
+      <section class="map-section">
+        <h3><i class="fas fa-map-marked-alt"></i> Our Location</h3>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="parking-info">
+          <h4><i class="fas fa-car"></i> Parking Information</h4>
+          <p>Free parking available in our lot behind the building. Look for the rainbow flags!</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <i class="fas fa-atom logo-icon"></i>
+          <h2>Future Centre</h2>
+          <p>Empowering neurodivergent children to shine bright through compassionate care.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="parents.html">For Parents</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
         </div>
       </div>
+    </footer>
 
-      <div class="contact-form-container">
-        <h3><i class="fas fa-comment-dots"></i> Send Us a Message</h3>
-        <form id="contactForm" class="contact-form">
-          <div class="form-group">
-            <label for="name"><i class="fas fa-user"></i> Your Name</label>
-            <input type="text" id="name" placeholder="First and Last Name" required>
-          </div>
-          
-          <div class="form-group">
-            <label for="email"><i class="fas fa-envelope"></i> Email</label>
-            <input type="email" id="email" placeholder="your@email.com" required>
-          </div>
-          
-          <div class="form-group">
-            <label for="phone"><i class="fas fa-phone"></i> Phone (optional)</label>
-            <input type="tel" id="phone" placeholder="(123) 456-7890">
-          </div>
-          
-          <div class="form-group">
-            <label for="childAge"><i class="fas fa-child"></i> Child's Age (if applicable)</label>
-            <input type="text" id="childAge" placeholder="e.g. 5 years">
-          </div>
-          
-          <div class="form-group">
-            <label for="message"><i class="fas fa-comment"></i> Your Message</label>
-            <textarea id="message" rows="5" placeholder="How can we help your family?" required></textarea>
-          </div>
-          
-          <button type="submit" class="btn btn-rainbow">
-            <i class="fas fa-paper-plane"></i> Send Message
-          </button>
-        </form>
-        <p id="formResponse" class="form-response"></p>
-      </div>
-    </section>
-
-    <section class="map-section">
-      <h3><i class="fas fa-map-marked-alt"></i> Our Location</h3>
-      <div class="map-container">
-        <!-- Replace with your actual map embed code -->
-        <div class="map-placeholder">
-          <i class="fas fa-map"></i>
-          <p>Map of our location would appear here</p>
-        </div>
-      </div>
-      <div class="parking-info">
-        <h4><i class="fas fa-car"></i> Parking Information</h4>
-        <p>Free parking available in our lot behind the building. Look for the rainbow flags!</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-content">
-      <p>&copy; 2025 Future Centre | <i class="fas fa-map-marker-alt"></i> 123 Playful Lane, Kidstown</p>
-      <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-      </div>
+    <!-- Floating Help Button -->
+    <div class="fun-corner">
+      <i class="fas fa-question-circle"></i>
     </div>
-  </footer>
-  
-  <!-- Fun floating button -->
-  <div class="fun-corner">
-    <i class="fas fa-question-circle"></i>
   </div>
 
   <script>
@@ -148,8 +169,6 @@
       responseElement.innerHTML = '<i class="fas fa-check-circle"></i> Thank you! Your message has been sent. We\'ll contact you soon!';
       responseElement.style.color = '#4CAF50';
       this.reset();
-      
-      // Scroll to response message
       responseElement.scrollIntoView({ behavior: 'smooth' });
     });
   </script>
