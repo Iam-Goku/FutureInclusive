@@ -21,3 +21,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const responseElement = document.getElementById('formResponse');
+    responseElement.innerHTML = '<i class="fas fa-check-circle"></i> Thank you! Your message has been sent. We\'ll contact you soon!';
+    responseElement.style.color = '#4CAF50';
+    this.reset();
+    responseElement.scrollIntoView({ behavior: 'smooth' });
+});

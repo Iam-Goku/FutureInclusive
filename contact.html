@@ -156,21 +156,18 @@
       </div>
     </footer>
 
-    <!-- Floating Help Button -->
-    <div class="fun-corner">
-      <i class="fas fa-question-circle"></i>
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-fab">
+      <a href="https://wa.me/yournumber" target="_blank" class="whatsapp-icon">
+        <i class="fab fa-whatsapp"></i>
+      </a>
     </div>
-  </div>
 
-  <script>
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const responseElement = document.getElementById('formResponse');
-      responseElement.innerHTML = '<i class="fas fa-check-circle"></i> Thank you! Your message has been sent. We\'ll contact you soon!';
-      responseElement.style.color = '#4CAF50';
-      this.reset();
-      responseElement.scrollIntoView({ behavior: 'smooth' });
-    });
-  </script>
+  </div>
+  
+  <script src="Components/script.js"></script>
 </body>
 </html>
+
+
+

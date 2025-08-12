@@ -14,6 +14,10 @@
   --text-gradient: linear-gradient(90deg, #6e45e2, #ff7e5f);
 }
 
+.fa-star{
+   flood-color: #ff7e5f;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -689,29 +693,44 @@ h3 {
   color: var(--primary);
 }
 
-/* ===== Floating Action Button ===== */
-.fab {
+/* WhatsApp Floating Action Button */
+.whatsapp-fab {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: var(--gradient-1);
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  box-shadow: 0 10px 30px rgba(110, 69, 226, 0.3);
-  cursor: pointer;
-  transition: all 0.3s ease;
   z-index: 99;
 }
 
-.fab:hover {
-  transform: scale(1.1) translateY(-5px);
-  box-shadow: 0 15px 40px rgba(110, 69, 226, 0.4);
+.whatsapp-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #25D366; /* WhatsApp brand green */
+  color: white;
+  font-size: 1.8rem;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.3);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-icon:hover {
+  background: #128C7E; /* Darker green on hover */
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(37, 211, 102, 0.4);
+}
+
+/* Pulse animation (optional) */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.whatsapp-icon:hover i {
+  animation: pulse 1.5s infinite;
 }
 
 /* ===== Animations ===== */
